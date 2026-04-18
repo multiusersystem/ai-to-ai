@@ -4,8 +4,8 @@ function replaceText(node) {
         let text = node.nodeValue;
         
         // Replace "AI" and "A.I." with "butt" but not partial matches
-        text = text.replace(/\bAI\b/g, "Butt");
-        text = text.replace(/\bA\.I\./g, "Butt");
+        text = text.replace(/\bAI\b/g, "Artificial Insemination");
+        text = text.replace(/\bA\.I\./g, "Artificial Insemination");
         
         if (text !== node.nodeValue) {
             node.nodeValue = text;
